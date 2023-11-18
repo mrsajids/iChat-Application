@@ -10,6 +10,7 @@ const app = express();
 const server = http.createServer(app);
 
 // code for cors error
+const cal=10
 const io = socketio(server,{
     cors: {
         origins: ["*"],
