@@ -8,6 +8,7 @@ const router = require('./router');
 
 const app = express();
 const server = http.createServer(app);
+
 // code for cors error
 const io = socketio(server,{
     cors: {
