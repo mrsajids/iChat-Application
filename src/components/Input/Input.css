@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  margin: 2px;
+  justify-content: center;
+  align-items: center;
+  /* border-top: 2px solid #D3D3D3; */
+}
+
+.input {
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 5%;
+  width: 80%;
+  height: 60%;
+  font-size: 1.2em;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.sendicon{
+  height: 6rem;
+}

@@ -1,0 +1,40 @@
+.infoBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: green;
+    border-radius: 4px 4px 0 0;
+    height: 60px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .leftInnerContainer {
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    color: white;
+  }
+  
+  .rightInnerContainer {
+    display: flex;
+    flex: 0.5;
+    justify-content: flex-end;
+    margin-right: 5%;
+  }
+  
+  .onlineIcon {
+    margin-right: 5%;
+  }
+  .ichaticon{
+    height: 85%;
+  }
+  .ichattext{
+    font-family: revert;
+    color: white;
+    font-weight: 700;
+    font-size: x-large;
+  }
