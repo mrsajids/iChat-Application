@@ -16,4 +16,4 @@ This is a real-time group chat application where users can join specific rooms b
 - **Frontend**: React
 - **Backend**: Node.js, Express
 - **Communication**: WebSocket (`ws` library)
-- 
+
