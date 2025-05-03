@@ -2,6 +2,7 @@
 
 This is a real-time group chat application where users can join specific rooms by entering their **name** and **room name**. The frontend is built with **React**, while the backend uses **Node.js**, **Express**, and **WebSocket** to handle real-time communication.
 
+
 ## Features
 
 - Join a chat room using your name and room name
