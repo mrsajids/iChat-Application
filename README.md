@@ -1,18 +1,17 @@
-# Real-Time Chat Application
+# Real-Time Group Chat Application
 
-This is a real-time chat application built with **React** for the frontend, **WebSocket** for real-time communication, and **Node.js** with **Express** for the backend server.
+This is a real-time group chat application where users can join specific rooms by entering their **name** and **room name**. The frontend is built with **React**, while the backend uses **Node.js**, **Express**, and **WebSocket** to handle real-time communication.
 
 ## Features
 
-- Real-time messaging using WebSocket
-- Simple and responsive chat UI built with React
-- Scalable server using Node.js and Express
-- Lightweight and fast communication without page reloads
+- Join a chat room using your name and room name
+- Real-time messaging via WebSocket
+- Dynamic room-based group chat
+- Responsive UI with React
+- Lightweight backend using Express and Node.js
 
 ## Tech Stack
 
 - **Frontend**: React
 - **Backend**: Node.js, Express
-- **Communication**: WebSocket (using `ws` library)
-
-## Project Structure
+- **Communication**: WebSocket (`ws` library)
